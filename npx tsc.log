@@ -1,0 +1,26 @@
+src/stories/Button.tsx:1:1 - error TS6133: 'React' is declared but its value is never read.
+
+1 import React from 'react';
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+src/stories/Header.stories.ts:11:5 - error TS2322: Type '({ primary, size, backgroundColor, label, ...props }: ButtonProps) => JSX.Element' is not assignable
+to type 'ComponentType<unknown>'.
+  Type '({ primary, size, backgroundColor, label, ...props }: ButtonProps) => JSX.Element' is not assignable to type 'FunctionComponent<unknown>'.
+    Types of parameters '__0' and 'props' are incompatible.
+      Type 'unknown' is not assignable to type 'ButtonProps'.
+
+11     Button,
+       ~~~~~~
+
+src/stories/Header.tsx:1:1 - error TS6133: 'React' is declared but its value is never read.
+
+1 import React from 'react';
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Found 3 errors in 3 files.
+
+Errors  Files
+     1  src/stories/Button.tsx:1
+     1  src/stories/Header.stories.ts:11
+     1  src/stories/Header.tsx:1
