@@ -1,0 +1,21 @@
+╭ Migration check ran successfully ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│                                                                                                                                                            │
+│   Successful migrations:                                                                                                                                   │
+│                                                                                                                                                            │
+│   react-docgen, webpack5-compiler-setup, upgradeStorybookRelatedDependencies, autodocs-tags                                                                │
+│                                                                                                                                                            │
+│   Skipped migrations:                                                                                                                                      │
+│                                                                                                                                                            │
+│   visual-tests-addon                                                                                                                                       │
+│                                                                                                                                                            │
+│   ─────────────────────────────────────────────────                                                                                                        │
+│                                                                                                                                                            │
+│   If you'd like to run the migrations again, you can do so by running 'npx storybook automigrate'                                                          │
+│                                                                                                                                                            │
+│   The automigrations try to migrate common patterns in your project, but might not contain everything needed to migrate to the latest version of           │
+│   Storybook.                                                                                                                                               │
+│                                                                                                                                                            │
+│   Please check the changelog and migration guide for manual migrations and more information: https://storybook.js.org/docs/8.0/migration-guide             │
+│   And reach out on Discord if you need help: https://discord.gg/storybook                                                                                  │
+│                                                                                                                                                            │
+╰────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
